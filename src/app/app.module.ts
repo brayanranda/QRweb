@@ -3,14 +3,28 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/Layout/header/header.component';
+import { FooterComponent } from './components/Layout/footer/footer.component';
+import { NavComponent } from './components/Layout/nav/nav.component';
+import { LoginComponent } from './components/login/login.component';
+import { GenerateComponent } from './components/generate/generate.component';
+import { RegisterComponent } from './components/register/register.component';
+import { ButtonComponent } from './components/Layout/button/button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    LoginComponent,
+    GenerateComponent,
+    RegisterComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
