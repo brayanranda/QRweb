@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { GenerateComponent } from './components/generate/generate.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ButtonComponent } from './components/Layout/button/button.component';
+import { ResultsComponent } from './components/results/results.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ButtonComponent } from './components/Layout/button/button.component';
     LoginComponent,
     GenerateComponent,
     RegisterComponent,
-    ButtonComponent
+    ButtonComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
