@@ -11,6 +11,10 @@ import { GenerateComponent } from './components/generate/generate.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ButtonComponent } from './components/Layout/button/button.component';
 import { ResultsComponent } from './components/results/results.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -22,11 +26,14 @@ import { ResultsComponent } from './components/results/results.component';
     GenerateComponent,
     RegisterComponent,
     ButtonComponent,
-    ResultsComponent
+    ResultsComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
